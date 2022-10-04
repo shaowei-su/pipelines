@@ -4,7 +4,7 @@ kind: Kustomization
 bases:
   - ../../dev
   - ../base
-namespace: kubeflow
+namespace: bigqueue-jobs-staging
 
 # Delete the cache deployer as we use the cert-manager instead 
 patchesStrategicMerge:
